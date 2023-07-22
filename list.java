@@ -23,4 +23,13 @@ public class TestBt {
             .collect(Collectors.toList());
     }
 
+    @Test
+    public void test02() {
+  //直接去重
+List<RealNameUploadRecord> collect = 
+clockingVO.stream().distinct().collect(Collectors.toList());
+
+    }
+    
+
     }
