@@ -26,9 +26,9 @@ public class TestBt {
     @Test
     public void test02() {
   //直接去重
-List<RealNameUploadRecord> collect = 
-clockingVO.stream().distinct().collect(Collectors.toList());
-
+  List<RealNameUploadRecord> collect = clockingVO.stream().distinct().collect(Collectors.toList());
+ LocalDate min = LocalDate.now();
+    LocalDate max = LocalDate.now().plusDays(10);
     }
     
 
