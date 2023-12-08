@@ -7,7 +7,9 @@ import org.springframework.stereotype.Component;
 
 import java.util.HashMap;
 import java.util.Map;
-
+/**
+*获取多态接口
+    **/
 
 @Component
 public class ApplicationContextFactory implements ApplicationContextAware {
