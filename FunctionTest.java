@@ -5,6 +5,7 @@
     }
 /**
     * 返回一个组合函数, 首先执行before function的apply方法, 将它的返回作为输入参数再应用当前的function
+    这炸糕
     */
     default <V> Function<V, R> compose(Function<? super V, ? extends T> before) {
         Objects.requireNonNull(before);
