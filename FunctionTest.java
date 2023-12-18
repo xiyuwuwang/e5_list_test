@@ -8,6 +8,7 @@
     这炸糕
     */
     default <V> Function<V, R> compose(Function<? super V, ? extends T> before) {
+
         Objects.requireNonNull(before);
         return (V v) -> apply(before.apply(v));
     }
