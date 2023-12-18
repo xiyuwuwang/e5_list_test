@@ -6,6 +6,7 @@
 /**
     * 返回一个组合函数, 首先执行before function的apply方法, 将它的返回作为输入参数再应用当前的function
     这炸糕
+ Return a composite function, first execute the apply method of the before function, take its return as input parameter, and then apply the current function to the fried cake
     */
     default <V> Function<V, R> compose(Function<? super V, ? extends T> before) {
 
